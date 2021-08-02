@@ -1,0 +1,125 @@
+.d-flex{
+    display: flex;
+}
+.d-fcenter{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    height: 950px;
+    background: url(./img/photo-1552393700-42696fb89bfa.png) no-repeat center center fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan{
+    font: italic normal bold 24px/42px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.name{
+    font: italic normal 900 80px/106px Roboto;
+    color:#fff;
+}
+
+.description{
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 300px;
+    font: italic normal bold 24px/36px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon{
+    padding-top: 16px;
+}
+
+ul.icon > li {
+    padding-right: 16px;
+} 
+
+.about{
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font: italic normal 
+    bold 64px/84px Roboto;
+    padding: 20px 0px;
+}
+
+.avator{
+    height: 384px;
+    width: 384px;
+    background: url(./img/photo-1551852922-003865d4a3ba.png) ;
+}
+.profile{
+    font: italic normal bold 24px/42px Roboto;
+    text-align: center;
+    width: 420px;
+}
+.block{
+    margin-top: 24px;
+    width: 384px;
+    border-top: 1px solid;
+}
+
+.job::before{
+
+    content: "\2022";
+    color:#891818;
+    font-size: 42px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.job{
+    font: italic normal bold 24px/42px Roboto;
+    text-align: center;
+}
+.brand{
+    justify-content: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    color:#fff;
+}
+.subtitle{
+    text-align: center;
+    font-size: 24px;
+}
+.branddesc{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    /* width: 240px; */
+    font: italic normal medium 20px/30px Roboto;
+}
+.brandcenter{
+    text-align: center;
+    width: 240px;
+}
+.imgpd{
+    padding: 24px;
+}
+
+
+.works{
+    display: flex;
+    justify-content: center;
+}
+
+.workpng{
+    padding: 24px;
+}
+.contact{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
